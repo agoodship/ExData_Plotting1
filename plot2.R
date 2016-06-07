@@ -19,5 +19,5 @@ plot(datetime, condensePower$Global_active_power,
      xlab = "",
      ylab = "Global Active Power (kilowatts)")
 
-dev.copy(png, file="plot2.png")
+dev.copy(png, file="plot2.png", width=480, height=480)
 dev.off()

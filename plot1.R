@@ -16,5 +16,5 @@ hist(condensePower$Global_active_power,
      ylab = "Frequency", 
      xlab = "Global Active Power (in kilowatts)")
 
-dev.copy(png, file="plot1.png")
+dev.copy(png, file="plot1.png", width=480, height=480)
 dev.off()
